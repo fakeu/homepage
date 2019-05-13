@@ -1,3 +1,3 @@
-# Homepage &#x1F609;
+# Homepage
 
 My very own personal website. Basically this is just a résumé.
