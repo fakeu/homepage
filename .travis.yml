@@ -9,7 +9,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "fakeu-staging"
+    bucket: "fakeuat-staging"
     region: eu-central-1
     acl: public_read
     on:
@@ -18,7 +18,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "fakeu-production"
+    bucket: "fakeuat-production"
     region: eu-central-1
     acl: public_read
     on:
