@@ -1,0 +1,63 @@
+.avatar_circle {
+  overflow: hidden;
+
+  width: 100%;
+
+  border-radius: 50%;
+  box-shadow: 0 0 15px #666;
+}
+
+main {
+  z-index: 99;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation: bg 7s infinite linear;
+  -o-animation: bg 7s infinite linear;
+  animation: bg 7s infinite linear;
+
+  background-image: -webkit-linear-gradient(5deg, #25a9cb 0%, #6739b7 100%);
+  background-image: -o-linear-gradient(5deg, #25a9cb 0%, #6739b7 100%);
+  background-image: linear-gradient(85deg, #25a9cb 0%, #6739b7 100%);
+  -o-background-size: 400% 400%;
+  background-size: 400% 400%;
+}
+
+@-webkit-keyframes bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-o-keyframes bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
